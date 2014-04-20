@@ -1,12 +1,11 @@
 package com.example.socketiotest;
 
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 
-import org.json.JSONArray;
+import java.net.MalformedURLException;
+
+
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -33,10 +32,7 @@ import android.os.Build;
 public class MainActivity extends ActionBarActivity {
 	
 	public SocketIO socket;
-	
 	public String message1;
-	
-	private IOCallback callback;
 	private final static String URL = "http://192.168.1.3:3000";
 
 	
